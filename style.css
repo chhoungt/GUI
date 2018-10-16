@@ -1,0 +1,63 @@
+body{
+  background-image: url("nidalee.jpg");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center;
+  background-color: black;
+}
+.wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+.art{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.artRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header{
+	font-family: "Times New Roman";
+}
+
+p{
+  text-align: center;
+  color: #C02F1D;
+}
+
+h2{
+  top: 30px;
+  text-align: center;
+  color: #7a0cad;
+}
+
+nav ul{
+  text-align: center;
+  list-style: none;
+  color: #7a0cad;
+  padding-left: 0px;
+}
+nav a{
+  text-decoration: none;
+  color: #7a0cad;
+}
+
+nav a:hover{
+  color: hotpink;
+}
+
+.Index{
+  text-align: center;
+  color: white;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+}
