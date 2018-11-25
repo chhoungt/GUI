@@ -1,0 +1,45 @@
+/*
+Name: Bunchhoung Tiv
+Email: bunchhoung_tiv@student.uml.edu
+Affiliation: Student at UML in course 91.61 GUI Programming I
+Date: November 25, 2018
+*/
+/* yo this css make my website look mad clean
+*/
+/* Background picture
+*/
+body {
+  margin-left: 100px;
+  padding-top: 20px;
+  background: url('../images/space.jpg');
+}
+
+/* changing font to white for visability
+*/
+h1{
+  color: white;
+}
+#userInput{
+  color: white;
+}
+
+/* Make button slightly bigger
+*/
+#button{
+  width: 20em;
+  height: 2em;
+}
+
+/* give border to table
+*/
+td{
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+
+th{
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
