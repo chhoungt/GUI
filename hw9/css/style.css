@@ -1,0 +1,57 @@
+/*
+Name: Bunchhoung Tiv
+Email: bunchhoung_tiv@student.uml.edu
+Affiliation: Student at UML in course 91.61 GUI Programming I
+Date: December 19, 2018
+*/
+
+header, h2{
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+    color: mediumpurple;
+    background-color: white;
+}
+
+.wrapper {
+    margin: 200px auto 20px auto;
+    max-width:650px;
+    height: 650px;
+    border-style: dashed;
+    border-width: 5px;
+    text-align: center;
+    border-color: purple;
+    background-color: white;
+    margin: auto;
+}
+
+body{
+    background: url("../image/background.jpeg");
+    background-repeat:no-repeat;
+}
+
+#highScore, #currentScore {
+    display: inline;
+    margin: 210px auto 20px auto;
+    max-width:600px;
+    color: mediumorchid;
+    
+}
+
+.letterTile {
+    max-width: 70px;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+#board {
+    max-width:600px;
+    margin: 0px auto;
+}
+
+#hand {
+    max-width:600px;
+    height: 100px;
+    margin: 210px auto 20px auto;
+}
